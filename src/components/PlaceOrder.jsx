@@ -29,7 +29,7 @@ const PlaceOrder = () => {
          <input type="text" placeholder='Phone' className='mb-3.75 w-full p-2.5 outline-[tomato] border border-[#c5c5c5] rounded-sm'/>
       </div>
 
-       <div className="flex-1 flex flex-col gap-5">
+       <div className="w-full max-w-[max(30%,500px) flex flex-col gap-5">
                 <h2 className="text-2xl font-bold">Cart Totals</h2>
                 <div>
                   <div className="flex justify-between text-[#555]">

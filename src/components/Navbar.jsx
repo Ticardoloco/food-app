@@ -78,7 +78,7 @@ const Navbar = ({ setLoginPopup }) => {
             alt="search-icon"
             width={30}
             height={30}
-            className="cursor-pointer "
+            className="cursor-pointer w-6 sm:w-7.5"
           />
           <div className="relative">
             <NextLink href={"/order"}>
@@ -87,7 +87,7 @@ const Navbar = ({ setLoginPopup }) => {
                 alt="basket icon"
                 width={30}
                 height={30}
-                className="cursor-pointer"
+                className="cursor-pointer w-6 sm:w-7.5"
               />
             </NextLink>
             <div className={` absolute w-2.5 h-2.5 bg-[tomato] -top-2 -right-2 rounded-[5px] ${getTotalCart()=== 0 ? "hidden":"block"}`}></div>
@@ -95,7 +95,7 @@ const Navbar = ({ setLoginPopup }) => {
 
           <button
             onClick={() => setLoginPopup(true)}
-            className="py-2.5 px-7.5 sm:py-2 sm:px-6.25 text-sm sm:text-base text-gray-700 bg-transparent border border-[tomato] rounded-full cursor-pointer "
+            className="py-2 px-6.25 sm:py-2.5 sm:px-7.5 text-xs sm:text-base text-gray-700 bg-transparent border border-[tomato] rounded-full cursor-pointer "
           >
             Sign Up
           </button>
